@@ -13,7 +13,7 @@ namespace DinkumChinese
         public static Dictionary<string, Sprite> SpriteCache = new Dictionary<string, Sprite>();
 
         /// <summary>
-        /// 加载图片
+        /// 加载图片 (charger l'image)
         /// </summary>
         /// <param name="path"></param>
         /// <returns></returns>

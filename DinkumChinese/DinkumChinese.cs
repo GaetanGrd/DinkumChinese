@@ -54,12 +54,12 @@ namespace DinkumChinese
         private void Awake()
         {
             Inst = this;
-            DevMode = Config.Bind<bool>("Dev", "DevMode", false, "开发模式时，可以按快捷键触发开发功能");
-            DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
-            LogNoTranslation = Config.Bind<bool>("Tool", "LogNoTranslation", true, "可以输出没翻译的目标");
-            DebugWindow = new UIWindow("汉化测试工具[Ctrl+小键盘4]");
+            DevMode = Config.Bind<bool>("Dev", "DevMode", false, "En mode développement, vous pouvez appuyer sur la touche de raccourci pour déclencher la fonction de développement");
+            DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "En mode développement, la traduction DynamicText Post Quest n'est pas chargée, ce qui est pratique pour le dump");
+            LogNoTranslation = Config.Bind<bool>("Tool", "LogNoTranslation", true, "Peut générer des cibles non traduites");
+            DebugWindow = new UIWindow("Outil de test chinois [Ctrl+clavier 4]");
             DebugWindow.OnWinodwGUI = DebugWindowGUI;
-            ErrorWindow = new UIWindow("汉化出现错误");
+            ErrorWindow = new UIWindow("Erreur de sinisation");
             ErrorWindow.OnWinodwGUI = ErrorWindowFunc;
             try
             {
@@ -71,12 +71,12 @@ namespace DinkumChinese
             }
             catch (ExecutionEngineException ex)
             {
-                ErrorStr = $"汉化出现错误。推测是由于用户名或者游戏路径中包含非英文字符导致。\n异常信息:\n{ex}";
+                ErrorStr = $"Il y a une erreur en chinois. Il est supposé que le nom d'utilisateur ou le chemin du jeu contient des caractères non anglais. \nInformations sur l'exception :\n{ex}";
                 ErrorWindow.Show = true;
             }
             catch (Exception ex)
             {
-                ErrorStr = $"汉化出现错误。\n异常信息:\n{ex}";
+                ErrorStr = $"Il y a une erreur en chinois. \nInformations sur les exceptions :\n{ex}";
                 ErrorWindow.Show = true;
             }
             if (DevMode.Value && DontLoadLocOnDevMode.Value)
@@ -111,29 +111,29 @@ namespace DinkumChinese
         {
             if (DevMode.Value)
             {
-                // Ctrl + 小键盘4 切换GUI
+                // Ctrl + 小键盘4 切换GUI (Ctrl + Pavé numérique 4 Basculer l'interface graphique)
                 if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad4))
                 {
                     DebugWindow.Show = !DebugWindow.Show;
                 }
-                // Ctrl + 小键盘5 切换暂停游戏，游戏速度1
+                // Ctrl + 小键盘5 切换暂停游戏，游戏速度1 (Ctrl + Pavé numérique 5 bascule le jeu en pause, vitesse de jeu 1)
                 if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad5))
                 {
                     Pause = !Pause;
                     Time.timeScale = Pause ? 0 : 1;
                 }
-                // Ctrl + 小键盘6 切换暂停游戏，游戏速度10
+                // Ctrl + 小键盘6 切换暂停游戏，游戏速度10 (Commutateur Ctrl + Numpad 6 pour mettre le jeu en pause, la vitesse de jeu est de 10)
                 if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad6))
                 {
                     Pause = !Pause;
                     Time.timeScale = Pause ? 1 : 10;
                 }
-                // Ctrl + 小键盘7 dump场景内所有文本，不包括隐藏的文本
+                // Ctrl + 小键盘7 dump场景内所有文本，不包括隐藏的文本 (Ctrl + Numpad 7 vide tout le texte de la scène, à l'exception du texte masqué)
                 if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad7))
                 {
                     DumpText(false);
                 }
-                // Ctrl + 小键盘8 dump场景内所有文本，包括隐藏的文本
+                // Ctrl + 小键盘8 dump场景内所有文本，包括隐藏的文本 (Ctrl + Numpad 8 vide tout le texte de la scène, y compris le texte masqué)
                 if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad8))
                 {
                     DumpText(true);
@@ -152,56 +152,56 @@ namespace DinkumChinese
 
         public void DebugWindowGUI()
         {
-            GUILayout.BeginVertical("功能区", GUI.skin.window);
-            if (GUILayout.Button("[Ctrl+小键盘5] 切换暂停游戏，游戏速度1"))
+            GUILayout.BeginVertical("Ruban", GUI.skin.window);
+            if (GUILayout.Button("[Ctrl+Numpad 5] Commutateur pour mettre le jeu en pause, vitesse de jeu 1"))
             {
                 Pause = !Pause;
                 Time.timeScale = Pause ? 0 : 1;
             }
-            if (GUILayout.Button("[Ctrl+小键盘6] 切换暂停游戏，游戏速度10"))
+            if (GUILayout.Button("[Ctrl + Pavé numérique 6] Commutez pour mettre le jeu en pause, la vitesse du jeu est de 10"))
             {
                 Pause = !Pause;
                 Time.timeScale = Pause ? 1 : 10;
             }
-            if (GUILayout.Button("检查括号"))
+            if (GUILayout.Button("vérifier les crochets"))
             {
                 CheckKuoHao();
             }
             GUILayout.EndVertical();
             GUILayout.BeginVertical("Dump", GUI.skin.window);
-            if (GUILayout.Button("[Ctrl+小键盘7] dump场景内所有文本，不包括隐藏的文本"))
+            if (GUILayout.Button("[Ctrl + Pavé numérique 7] vide tout le texte de la scène, à l'exception du texte masqué"))
             {
                 DumpText(false);
             }
-            if (GUILayout.Button("[Ctrl+小键盘8] dump场景内所有文本，包括隐藏的文本"))
+            if (GUILayout.Button("[Ctrl + Pavé numérique 8] vider tout le texte de la scène, y compris le texte masqué"))
             {
                 DumpText(true);
             }
-            if (GUILayout.Button("dump所有不在多语言表格内的对话(需要未汉化状态)"))
+            if (GUILayout.Button("vider tous les dialogues qui ne sont pas dans la table multilingue (doit être inachevé)"))
             {
                 DumpAllConversation();
             }
-            if (GUILayout.Button("dump post(需要未汉化状态)"))
+            if (GUILayout.Button("poste de décharge (nécessite un état inachevé)"))
             {
                 DumpAllPost();
             }
-            if (GUILayout.Button("dump quest(需要未汉化状态)"))
+            if (GUILayout.Button("quête de vidage (nécessite un état inachevé)"))
             {
                 DumpAllQuest();
             }
-            if (GUILayout.Button("dump mail(需要未汉化状态)"))
+            if (GUILayout.Button("dump mail (doit être inachevé)"))
             {
                 DumpAllMail();
             }
-            if (GUILayout.Button("dump tips(需要未汉化状态)"))
+            if (GUILayout.Button("dump tips (nécessite un état inachevé)"))
             {
                 DumpAllTips();
             }
-            if (GUILayout.Button("dump animals(需要未汉化状态)"))
+            if (GUILayout.Button("jeter des animaux (doit être inachevé)"))
             {
                 DumpAnimals();
             }
-            if (GUILayout.Button("dump没翻译key的物品(需要未汉化状态)"))
+            if (GUILayout.Button("Vider les éléments sans clés de traduction (doit être inachevé)"))
             {
                 DumpAllUnTermItem();
             }
@@ -246,7 +246,7 @@ namespace DinkumChinese
         [HarmonyPostfix, HarmonyPatch(typeof(OptionsMenu), "Start")]
         public static void OptionsMenuStartPatch()
         {
-            LocalizationManager.CurrentLanguage = "Chinese";
+            LocalizationManager.CurrentLanguage = "French";
         }
 
         [HarmonyPrefix, HarmonyPatch(typeof(RealWorldTimeLight), "setUpDayAndDate")]
@@ -344,7 +344,7 @@ namespace DinkumChinese
             {
                 if (!__result)
                 {
-                    Debug.LogWarning($"LocalizationManager获取翻译失败:Term:{Term}");
+                    Debug.LogWarning($"LocalizationManager n'a pas réussi à obtenir la traduction:Term:{Term}");
                 }
             }
         }
@@ -352,17 +352,17 @@ namespace DinkumChinese
         public static Queue<TextMeshProUGUI> waitShowTMPs = new Queue<TextMeshProUGUI>();
 
         /// <summary>
-        /// 检查翻译中的括号是否匹配
+        /// 检查翻译中的括号是否匹配 (Vérifier si les parenthèses dans la traduction correspondent)
         /// </summary>
         public void CheckKuoHao()
         {
             System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
             sw.Start();
-            // 索引和Excel表中的行对应的偏移
+            // 索引和Excel表中的行对应的偏移 (L'index et l'offset correspondant à la ligne dans le tableau Excel)
             int hangOffset = 3;
             int findCount = 0;
             StringBuilder sb = new StringBuilder();
-            LogInfo($"开始检查翻译中的括号:");
+            LogInfo($"Commencez à vérifier les parenthèses dans les traductions:");
             Regex reg = new Regex(@"(?is)(?<=\<)[^\>]+(?=\>)");
             var mResourcesCache = Traverse.Create(ResourceManager.pInstance).Field("mResourcesCache").GetValue<Dictionary<string, UnityEngine.Object>>();
             LanguageSourceAsset asset = mResourcesCache.Values.First() as LanguageSourceAsset;
@@ -375,7 +375,7 @@ namespace DinkumChinese
                 MatchCollection mc2 = reg.Matches(term.Languages[3]);
                 if (mc1.Count != mc2.Count)
                 {
-                    string log = $"行号:{i + hangOffset} Key:{term.Term} 中的括号数量不一致 英文原文有{mc1.Count}对括号 中文中有{mc2.Count}对括号";
+                    string log = $"numéro de ligne:{i + hangOffset} Key:{term.Term} Nombre de parenthèses incohérent{mc1.Count}entre parenthèses en chinois{mc2.Count}parenthèses";
                     LogInfo(log);
                     sb.AppendLine(log);
                     findCount++;
@@ -386,7 +386,7 @@ namespace DinkumChinese
                     {
                         if (mc1[j].Value != mc2[j].Value)
                         {
-                            string log = $"行号:{i + hangOffset} Key:{term.Term} 中的第{j}对括号内容不一致 原文中:<{mc1[j].Value}> 翻译中:<{mc2[j].Value}>";
+                            string log = $"numéro de ligne:{i + hangOffset} Key:{term.Term} dans le{j}Incompatible avec les parenthèses dans la version originale:<{mc1[j].Value}> en traduction:<{mc2[j].Value}>";
                             LogInfo(log);
                             sb.AppendLine(log);
                             findCount++;
@@ -395,7 +395,7 @@ namespace DinkumChinese
                 }
             }
             sw.Stop();
-            LogInfo($"检查完毕，找到{findCount}个有问题的项，耗时{sw.ElapsedMilliseconds}ms");
+            LogInfo($"Inspection terminée，venez{findCount}article en question，long{sw.ElapsedMilliseconds}ms");
             System.IO.File.WriteAllText($"{Paths.GameRootPath}/CheckKuoHao.txt", sb.ToString());
         }
 
@@ -427,11 +427,11 @@ namespace DinkumChinese
         }
 
         /// <summary>
-        /// 当游戏开始时只需要一次的处理
+        /// 当游戏开始时只需要一次的处理 (Un seul traitement est requis au démarrage du jeu)
         /// </summary>
         public void OnGameStartOnceFix()
         {
-            // 动物的生物群系翻译
+            // 动物的生物群系翻译 (traduction biome animal)
             //AnimalManager.manage.northernOceanFish.locationName =
             //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.northernOceanFish.locationName);
             //AnimalManager.manage.southernOceanFish.locationName =

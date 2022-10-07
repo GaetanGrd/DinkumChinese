@@ -25,7 +25,7 @@ namespace DinkumChinese
         }
 
         /// <summary>
-        /// 尝试替换Image图片
+        /// 尝试替换Image图片 (essayez de remplacer l'image)
         /// </summary>
         /// <param name="objPath"></param>
         /// <param name="imagePath"></param>

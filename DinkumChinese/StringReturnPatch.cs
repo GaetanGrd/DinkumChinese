@@ -16,9 +16,9 @@ namespace DinkumChinese
         [HarmonyPostfix, HarmonyPatch(typeof(AnimalHouseMenu), "fillData")]
         public static void AnimalHouseMenu_fillData_Patch(AnimalHouseMenu __instance)
         {
-            __instance.eatenText.text = __instance.eatenText.text.Replace("Eaten", "喂食");
-            __instance.shelterText.text = __instance.shelterText.text.Replace("Shelter", "住所");
-            __instance.pettedText.text = __instance.pettedText.text.Replace("Petted", "爱抚");
+            __instance.eatenText.text = __instance.eatenText.text.Replace("Eaten", "Mangé");
+            __instance.shelterText.text = __instance.shelterText.text.Replace("Shelter", "Abri");
+            __instance.pettedText.text = __instance.pettedText.text.Replace("Petted", "Caressé");
         }
 
         [HarmonyPrefix, HarmonyPatch(typeof(AnimalManager), "capitaliseFirstLetter")]
@@ -88,7 +88,7 @@ namespace DinkumChinese
                     {
                         if (j == list.Count - 2 && list.Count > 1)
                         {
-                            text += "和";
+                            text += "et";
                         }
                         else
                         {
@@ -106,7 +106,7 @@ namespace DinkumChinese
                 }
                 if (BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.getSubjectType() == PhotoChallengeManager.photoSubject.Location)
                 {
-                    __result = "地图上标记处拍照";
+                    __result = "Prenez des photos aux points marqués sur la carte";
                     return false;
                 }
                 if (BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.getSubjectType() == PhotoChallengeManager.photoSubject.Carryable)
@@ -125,7 +125,7 @@ namespace DinkumChinese
                 }
                 else if (BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.getSubjectType() == PhotoChallengeManager.photoSubject.Biome)
                 {
-                    __result = "在" + BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.returnRequiredLocationBiomeName() + "拍照";
+                    __result = "exister" + BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.returnRequiredLocationBiomeName() + "Photographier";
                     return false;
                 }
             }
@@ -136,10 +136,10 @@ namespace DinkumChinese
         [HarmonyPostfix, HarmonyPatch(typeof(CustomNetworkManager), "refreshLobbyTypeButtons")]
         public static void CustomNetworkManager_refreshLobbyTypeButtons_Patch(CustomNetworkManager __instance)
         {
-            __instance.friendGameText.text = __instance.friendGameText.text.Replace("Friends Only", "仅好友");
-            __instance.inviteOnlyText.text = __instance.inviteOnlyText.text.Replace("InviteOnly", "仅邀请");
-            __instance.publicGameText.text = __instance.publicGameText.text.Replace("Public", "公开");
-            __instance.lanGameText.text = __instance.lanGameText.text.Replace("LAN", "局域网");
+            __instance.friendGameText.text = __instance.friendGameText.text.Replace("Friends Only", "Réservé aux amis");
+            __instance.inviteOnlyText.text = __instance.inviteOnlyText.text.Replace("InviteOnly", "inviter seulement");
+            __instance.publicGameText.text = __instance.publicGameText.text.Replace("Public", "Public");
+            __instance.lanGameText.text = __instance.lanGameText.text.Replace("LAN", "LAN");
         }
 
         [HarmonyPostfix, HarmonyPatch(typeof(GenerateMap), "getBiomeNameById")]
@@ -165,43 +165,43 @@ namespace DinkumChinese
                 string text2 = "";
                 if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSummer && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInWinter && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSpring && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInAutum)
                 {
-                    text2 = "在所有季节";
+                    text2 = "en toutes saisons";
                 }
                 else
                 {
-                    text2 += "在";
+                    text2 += "exister";
                     if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSummer)
                     {
-                        text2 += "夏天";
+                        text2 += "été";
                     }
                     if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInAutum)
                     {
-                        if (text2 != "在")
+                        if (text2 != "exister" && text2 != "在")
                         {
-                            text2 += "和";
+                            text2 += "et";
                         }
-                        text2 += "秋天";
+                        text2 += "Automne";
                     }
                     if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInWinter)
                     {
-                        if (text2 != "在")
+                        if (text2 != "exister" && text2 != "在")
                         {
-                            text2 += "和";
+                            text2 += "et";
                         }
-                        text2 += "冬天";
+                        text2 += "hiver";
                     }
                     if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSpring)
                     {
-                        if (text2 != "在")
+                        if (text2 != "exister" && text2 != "在")
                         {
-                            text2 += "和";
+                            text2 += "et";
                         }
-                        text2 += "春天";
+                        text2 += "Printemps";
                     }
                 }
                 if (_this.allItems[itemId].placeable.tileObjectGrowthStages.needsTilledSoil)
                 {
-                    text = text + "适合" + text2 + "种植。";
+                    text = text + "Convient à" + text2 + "plante.";
                 }
                 if (_this.allItems[itemId].placeable.tileObjectGrowthStages.objectStages.Length != 0)
                 {
@@ -210,11 +210,11 @@ namespace DinkumChinese
                         text = string.Concat(new string[]
                         {
                         text,
-                        "周围需要一些空间，因为它们会在旁边的位置结出<b>",
+                        "besoin d'espace autour car ils se noueront dans la position suivante<b>",
                         _this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestSpots.Length.ToString(),
-                        "个",
+                        "individuel",
                         _this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestDrop.getInvItemName(),
-                        "</b>。该植株最多能分出4个分支！"
+                        "</b>.La plante peut diviser jusqu'à 4 branches!"
                         });
                     }
                     else
@@ -222,12 +222,12 @@ namespace DinkumChinese
                         text = string.Concat(new string[]
                         {
                         text,
-                        "需要",
+                        "besoin",
                         _this.allItems[itemId].placeable.tileObjectGrowthStages.objectStages.Length.ToString(),
-                        "天的时间来生长，可收获",
+                        "jours pour grandir et récolter",
                         _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length.ToString(),
                         _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestDrop.getInvItemName(),
-                        "。"
+                        "."
                         });
                     }
                 }
@@ -236,9 +236,9 @@ namespace DinkumChinese
                     text = string.Concat(new string[]
                     {
                     text,
-                    "后续每",
+                    "tous les suivants",
                     Mathf.Abs(_this.allItems[itemId].placeable.tileObjectGrowthStages.takeOrAddFromStateOnHarvest).ToString(),
-                    "天可收获",
+                    "jour de récolte",
                     _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length.ToString(),
                     _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestDrop.getInvItemName(),
                     "。"
@@ -246,7 +246,7 @@ namespace DinkumChinese
                 }
                 if (!WorldManager.manageWorld.allObjectSettings[_this.allItems[itemId].placeable.tileObjectId].walkable)
                 {
-                    text += "噢，这还需要植物支架来附着生长。";
+                    text += "Oh, et cela nécessite également des supports de plantes à attacher pour pousser.";
                 }
             }
             __result = text;
@@ -264,7 +264,7 @@ namespace DinkumChinese
         {
             CharMovement component = NetworkIdentity.spawned[deliveredBy].GetComponent<CharMovement>();
             var animal = AnimalManager.manage.allAnimals[animalDelivered];
-            // 获取动物名字
+            // 获取动物名字 (obtenir le nom de l'animal)
             string animalName = TextLocData.GetLoc(DinkumChinesePlugin.Inst.AnimalsTextLocList, animal.animalName);
             string str = animalName;
             if (variationDelivered != 0)
@@ -272,7 +272,7 @@ namespace DinkumChinese
                 string variationName = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, animal.hasVariation.variationAdjective[variationDelivered]);
                 str = variationName + animalName;
             }
-            NotificationManager.manage.createChatNotification(component.GetComponent<EquipItemToChar>().playerName + "交付了一只" + str, false);
+            NotificationManager.manage.createChatNotification(component.GetComponent<EquipItemToChar>().playerName + "livré un" + str, false);
             if (component.isLocalPlayer)
             {
                 MailManager.manage.sendAnAnimalCapturedLetter(rewardToSend, trapType);
@@ -336,7 +336,7 @@ namespace DinkumChinese
             }
             else
             {
-                __instance.buttonText.text = __instance.buttonText.text.Replace("Request for ", "来自") + "的请求";
+                __instance.buttonText.text = __instance.buttonText.text.Replace("Request for ", "Demande de") + "demande";
             }
         }
 

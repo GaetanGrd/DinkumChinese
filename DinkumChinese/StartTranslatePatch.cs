@@ -30,7 +30,7 @@ namespace DinkumChinese
                 string ori = __instance.tips[i];
                 for (int j = 0; j < DinkumChinesePlugin.Inst.TipsTextLocList.Count; j++)
                 {
-                    // 如果已经翻译过，则跳过
+                    // 如果已经翻译过，则跳过 (Ignorer si déjà traduit)
                     if (DinkumChinesePlugin.Inst.TipsTextLocList[j].Loc == ori)
                     {
                         return;
