@@ -507,7 +507,7 @@ namespace DinkumChinese
                             string line = $"{term}\t{c.startLineAlt.aConverstationSequnce[i].StrToI2Str()}";
                             if (terms.Contains(term))
                             {
-                                string log = $"重复的term，忽略。{line}";
+                                string log = $"Répéter le terme, ignorer. {line}";
                                 Logger.LogError(log);
                             }
                             else
@@ -537,7 +537,7 @@ namespace DinkumChinese
                                 string line = $"{term}\t{c.optionNames[j].StrToI2Str()}";
                                 if (terms.Contains(term))
                                 {
-                                    string log = $"重复的term，忽略。{line}";
+                                    string log = $"Répéter le terme, ignorer. {line}";
                                     Logger.LogError(log);
                                 }
                                 else
@@ -568,7 +568,7 @@ namespace DinkumChinese
                                 string line = $"{term}\t{c.responesAlt[k].aConverstationSequnce[l].StrToI2Str()}";
                                 if (terms.Contains(term))
                                 {
-                                    string log = $"重复的term，忽略。{line}";
+                                    string log = $"Répéter le terme, ignorer.{line}";
                                     Logger.LogError(log);
                                 }
                                 else

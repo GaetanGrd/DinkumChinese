@@ -241,7 +241,7 @@ namespace DinkumChinese
                     "jour de récolte",
                     _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length.ToString(),
                     _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestDrop.getInvItemName(),
-                    "。"
+                    "."
                     });
                 }
                 if (!WorldManager.manageWorld.allObjectSettings[_this.allItems[itemId].placeable.tileObjectId].walkable)
