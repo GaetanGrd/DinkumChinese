@@ -12,7 +12,7 @@
   <a href="https://saythanks.io/to/GaetanGrd">
       <img src="https://img.shields.io/badge/❤-SayThanks.io-1EAEDB.svg">
   </a>
-  <a href="https://paypal.me/GaetanGerard">
+  <a href="https://www.buymeacoffee.com/Shidorien">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
 </p>
@@ -22,30 +22,26 @@
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
   <a href="#prerequisites">Pre-requisites</a> •
-
   <a href="#credits">Credits</a> •
   <a href="mit-license">License</a>
 </p>
-
 [Menu principale (WIP)]
 
 ## Description
-Based on the DinkumChinese mods, DinkumFrench translating the game to allow a better understanding of the game for non-English speaking players
+Based on the DinkumChinese mods, DinkumFrench translates the game to allow a better understanding of the game for non-English speaker.
 ## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Visual studio](https://nodejs.org/en/download/) installed on your computer.
-
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Visual studio](https://nodejs.org/en/download/) to be installed on your computer.
 > **Note :**
 > This is a mod, some missing dependencies will have to be added with the game DLLs.
 ## Download
 You can [download](https://github.com/GaetanGrd/DinkumFrench/releases) the latest installable version of DinkumFrench for Windows.
 
 ## Prerequisites
-to use this mod you need [BepInEx 6](https://modding.wiki/en/dinkum/users#bepinex-6-setup) installed on your game.
+to use this mod you need [BepInEx 6](https://modding.wiki/en/dinkum/users#bepinex-6-setup) to be installed on your game.
 
 ## Credits
 
-This software uses the following open source packages:
+This software uses the following packages:
 - [BepInEx](https://github.com/BepInEx/BepInEx)
 - [Harmony](https://github.com/pardeike/Harmony)
 - [I2LocPatch](https://github.com/xiaoye97/I2LocPatch) (modified version!)
@@ -55,7 +51,7 @@ This software uses the following open source packages:
 ## Support
 
 <a href="https://www.buymeacoffee.com/Shidorien" target="_blank">
-  <img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
+  <img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;">
 </a>
 
 ## Special thanks
