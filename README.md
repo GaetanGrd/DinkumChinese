@@ -25,7 +25,8 @@
   <a href="#credits">Credits</a> •
   <a href="mit-license">License</a>
 </p>
-[Menu principale (WIP)]
+
+<img src="Ressources/img/mainmenu.gif" alt="Main menu gif">
 
 ## Description
 Based on the DinkumChinese mods, DinkumFrench translates the game to allow a better understanding of the game for non-English speaker.
