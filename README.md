@@ -26,7 +26,7 @@
   <a href="mit-license">License</a>
 </p>
 
-<img src="Ressources/img/mainmenu.gif" alt="Main menu gif">
+<img src="https://github.com/GaetanGrd/DinkumFrench/blob/main/Ressources/img/mainMenu.gif" alt="Main menu gif">
 
 ## Description
 Based on the DinkumChinese mods, DinkumFrench translates the game to allow a better understanding of the game for non-English speaker.
