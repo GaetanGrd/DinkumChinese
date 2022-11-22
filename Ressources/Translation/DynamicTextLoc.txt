@@ -1,0 +1,74 @@
+Key,French
+Unknown,Inconnue
+Mangroves,Mangroves(Mangroves)
+Billabong,Billabong (Billabong)
+Beach,Plage(Beach)
+Tropics,Forêt Tropical(Tropics)
+Bushland,Jungle(Bushland)
+Bushlands,Jungles(Bushlands)
+Desert,Désert(Desert)
+PineForest,Forêt de pins(PineForest)
+Pine Forest,Forêt de pins(Pine Forest)
+Plains,Plaine(Plains)
+Ocean,Océan(Ocean)
+Rough Soil,Terrain accidenté(Rough Soil)
+River,Fleuve(River)
+BillabongWater,Eaux Billabong (BillabongWater)
+BillabongBank,Rive Billabong (BillabongBank)
+RockyIsland,Île rocheuse(RockyIsland)
+WarmOcean,Océan chaud(WarmOcean)
+ColdOcean,Océan froid(ColdOcean)
+OceanShallows,Banc océanique(OceanShallows)
+Quary,Carrière(Quary)
+CassowaryNest,Nid de casoar(CassowaryNest)
+BunyipDen,(repaire de monstre aquatique(BunyipDen)
+DingoDen,tanière de chien sauvage(DingoDen)
+ShellSpace,En nacre(ShellSpace)
+Free Camera,Camera libre
+Build Camera,Camera de construc.
+Crafting Table,Établi
+Cooking Table,Établi de cuisson
+Repair Table,Établi de réparation
+Pick Up,Récupérer
+Check,Vérifier
+Select Amount,Sélectionnez la quantité
+Split Stack,Diviser
+Quick Move,Transfert rapide
+Place One,En déposer un
+Dive,Plongée
+Reel In,Prendre
+Release,Ouvrir
+northen oceans,océan du nord
+southern oceans,océan du sud
+rivers,rivières
+mangroves,mangroves
+billabongs,billabongs
+the tropics,la forêt Tropical
+the desert,le désert
+the bushlands,la jungle
+the pine forests,la forêt de pins
+the plains,la Plaine
+the ocean,l'Océan
+Farming,L'agriculture
+Foraging,Survie
+Mining,Exploitation minière
+Fishing,Aller pêcher
+BugCatching,attraper des insectes
+Hunting,chasser
+Amber,Ambre
+Amber Chunk,Morceau d'ambre
+Cassowary Egg,Oeuf de casoar
+Wary Mu Egg,Oeuf de Wary Mu
+BeeHive,Rayon de miel
+Bee Hive,Rayon de miel
+Thunder Egg,œuf électrique
+Fossil,Fossile
+Ruby,Rubis
+RubyChunk,Morceau de rubis
+Red,Rouge
+White,Blanc
+Black,Noir
+Poodle,Caniche
+Shepard,Berger (?)
+Russell,Jack Russell
+German,Berger allemand

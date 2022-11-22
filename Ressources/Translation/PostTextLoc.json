@@ -1,0 +1,86 @@
+[
+  {
+    "Ori": "Bulletin Board!",
+    "Loc": "Tableau d'affichage!"
+  },
+  {
+    "Ori": "Our town now has a Bulletin board! Please feel free to leave any reminders, announcements or requests here for the town to see!",
+    "Loc": "Notre ville a maintenant un Tableau d'affichage! N'hésitez pas à y laisser des rappels, des annonces ou des demandes ici pour que toute la ville puisse les voir !"
+  },
+  {
+    "Ori": "<boardHuntRequestAnimal> has been spotted at this location. This is a very dangerous Alpha animal and should only be taken on by an experienced hunter.",
+    "Loc": "<boardHuntRequestAnimal> a été vu à cet endroit. C'est un animal mutant très dangereux qui ne peut être combattu que par des chasseurs expérimentés."
+  },
+  {
+    "Ori": "<boardHuntRequestAnimal> Capture Reward",
+    "Loc": "<boardHuntRequestAnimal> Récompense de capture."
+  },
+  {
+    "Ori": "There is an increased reward for capturing a <boardHuntRequestAnimal> for a limited time.þþYou will receive your reward the next day in the mail.",
+    "Loc": "La capture de <boardHuntRequestAnimal> rapporte temporairement  davantage !. þþVotre récompense vous sera envoyé le lendemain par courrier.."
+  },
+  {
+    "Ori": "Want to Trade",
+    "Loc": "Échange"
+  },
+  {
+    "Ori": "I have a <boardRewardItem> I don't want anymore. I'm willing to trade <boardRequestItem> for it.þIf anyone is interested, please come see me.",
+    "Loc": "J'ai un <boardRewardItem> dont je ne veux plus. Je suis prêt à l’échanger contre un <boardRequestItem>. Si quelqu'un est intéressé, venez me voir."
+  },
+  {
+    "Ori": "Photo Request",
+    "Loc": "Demande de photos"
+  },
+  {
+    "Ori": "I would love to see a photo <getAnimalsInPhotoList>.",
+    "Loc": "Je veux voir une photo de <getAnimalsInPhotoList>."
+  },
+  {
+    "Ori": "Cooking some <boardRewardItem>",
+    "Loc": "Cuisiner des <boardRewardItem>"
+  },
+  {
+    "Ori": "I'm making <boardRewardItem> and I'm short <boardRequestItem>!þIf anyone can bring me <boardRequestItem>, I'll happily share some <boardRewardItem> with you!",
+    "Loc": "Je fais des <boardRewardItem> mais il me manque des <boardRequestItem> ! þSi quelqu'un peut m'apporter un <boardRequestItem>, je partagerais un <boardRewardItem> avec lui avec plaisir !"
+  },
+  {
+    "Ori": "Want to practice smelting.",
+    "Loc": "Entraînement à la forge."
+  },
+  {
+    "Ori": "I've been smelting ore a bit and I've run out. If anyone can bring me  <boardRequestItem> I'll give them <boardRewardItem> I have laying around.",
+    "Loc": "J'ai fait fondre du minerai, et je n'en ai plus. Si quelqu'un peut m'apporter un <boardRequestItem>, je lui donnerai un <boardRewardItem>. Je suis a la traîne."
+  },
+  {
+    "Ori": "Compost Request",
+    "Loc": "Demande de compost"
+  },
+  {
+    "Ori": "I'm making compost. If anyone brings me <boardRequestItem> I'll give them <boardRewardItem>.",
+    "Loc": "Je fais du composte. Si quelqu'un me donne un <boardRequestItem>, je lui donnerai un <boardRewardItem>."
+  },
+  {
+    "Ori": "Investigation Request",
+    "Loc": "Enquête"
+  },
+  {
+    "Ori": "I swear I saw something fall out of the sky the other night. þþMaybe someone can go check it out?",
+    "Loc": "Je jure avoir vu quelque chose tomber du ciel cette nuit. Peut-être que quelqu'un peut aller jeter un œil ?"
+  },
+  {
+    "Ori": "Crafting Request",
+    "Loc": "Demande de bricolage."
+  },
+  {
+    "Ori": "I'm looking for skilled crafter who is able to craft <boardRequestItem> for me.þþReward on delivery!",
+    "Loc": "Je cherche un artisan qualifié qui peutme  faire un <boardRequestItem>. Paiement à la livraison!"
+  },
+  {
+    "Ori": "Shipping Request",
+    "Loc": "Colis à envoyer"
+  },
+  {
+    "Ori": "I need to send a big shipment of <boardRequestItem> back home.þþIf anyone can help me fill this shipment, please come and see me with the goods.",
+    "Loc": "J'ai besoin d'envoyer à la maison un tas de <boardRequestItem>.þþSi quelqu'un peut m'aider à préparer cet envoi, venez me voir avec le tout."
+  }
+]

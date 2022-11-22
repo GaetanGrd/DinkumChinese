@@ -39,7 +39,7 @@ namespace DinkumChinese
                 string t = TextLocData.GetLoc(DinkumChinesePlugin.Inst.TipsTextLocList, ori);
                 if (t == ori)
                 {
-                    Debug.Log($"LoadingScreenImageAndTips 有待翻译的文本:[{t}]，请添加到DynamicTextLoc");
+                    Debug.Log($"LoadingScreenImageAndTips a du texte à traduire : [{t}], veuillez l'ajouter à DynamicTextLoc");
                 }
                 else
                 {

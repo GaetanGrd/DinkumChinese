@@ -1,0 +1,122 @@
+[
+  {
+    "Ori": "A Base of Operations",
+    "Loc": "Une base d'opérations"
+  },
+  {
+    "Ori": "You've arrived on the island! Fletch has given you a Base Tent and has asked you to look around and find a spot where you would like to settle.þþFeel free to ask Fletch questions about the island. She can be found wandering around near the Dock.",
+    "Loc": "Vous avez atteint l'île ! Fletch vous a donné une Tente de Base et vous a demandé de jeter un oeil dans le coin pour trouver un endroit où l’installer. . þþN'hésitez pas à poser des questions à Fletch sur l'île. Elle erre près du quai."
+  },
+  {
+    "Ori": "Your new home!",
+    "Loc": "votre nouvelle maison !"
+  },
+  {
+    "Ori": "Fletch has given you your own Tent! This will be your home for the time being, so take your time deciding where to set it up. Fletch has suggested setting it up closeby to the Base Tent.þþþþOnce you’ve got your tent set up, speak to Fletch.þ",
+    "Loc": "Fletch vous a offert votre propre tente ! Ce sera votre maison pour un petit moment, alors prenez votre temps pour décider où la placer. Fletch recommande de l'installer près de la tente de base. þþþþUne fois que vous avez installé votre tente, parlez à Fletch"
+  },
+  {
+    "Ori": "A place for Visitors",
+    "Loc": "Un endroit pour les visiteurs"
+  },
+  {
+    "Ori": "Fletch has asked you to find a place for the Visiting Site Deed. Once this deed has been placed, your camp will be ready to accommodate travellers from all over the place!þþReturn to Fletch once the deed has been placed.",
+    "Loc": "Fletch vous a demandé de trouver un endroit où loger vos visiteurs. Une fois l’emplacement décidé, votre camp sera prêt à accueillir des visiteurs de partout ! þþ Une fois l’endroit choisi, retournez voir Fletch."
+  },
+  {
+    "Ori": "Bush Tucker",
+    "Loc": "Cueilleur"
+  },
+  {
+    "Ori": "Fletch has asked you to find some fruit and cook it on the fire. Doing this will count towards your dailytasks.",
+    "Loc": "Fletch vous a demandé de trouver des fruits à rôtir sur le feu. Cela comptera pour vos tâches quotidiennes."
+  },
+  {
+    "Ori": "R n' R",
+    "Loc": "Repos"
+  },
+  {
+    "Ori": "Fletch hasn't got anything else for you today. Take a look around the island a bit, catch some bugs or get some rest.",
+    "Loc": "Fletch n'a rien d'autre pour vous aujourd'hui. Jetez un coup d'œil autour du camp pour attraper des insectes ou faites une pause."
+  },
+  {
+    "Ori": "Dinks and Tablesaws",
+    "Loc": "Dinks et Scie circulaire"
+  },
+  {
+    "Ori": "Fletch has asked you to buy a tablesaw from John's shop. Try selling unwanted items to John to get the dinks you need.",
+    "Loc": "Fletch vous a demandé d’acheter une scie circulaire chez John. Vendez-lui des objets dont vous n’avez pas besoin pour gagner quelques  Dinks. ."
+  },
+  {
+    "Ori": "Building Materials",
+    "Loc": "Matériaux de construction."
+  },
+  {
+    "Ori": "Fletch has asked you to aquire a list of items. You will have to craft a campfire.þþOnce you have collected the items Fletch will teach you how to make Tin Ore Bars.",
+    "Loc": "Fletch vous a demandé d'acquérir plusieurs objets. Vous devez faire un feu. þþUne fois que vous avez récupéré tous les objets, Fletch vous apprendra comment faire des lingots d'étain."
+  },
+  {
+    "Ori": "Smelting Ore",
+    "Loc": "Faire fondre du minerai"
+  },
+  {
+    "Ori": "Craft a crude furnace, place 5 Tin Ore inside and wait. þþBring Fletch the Tin Bar once it is completed smelting.",
+    "Loc": "Fabriquez un four simple, placez-y 5 minerais d'étain et attendez. Une fois la fusion þþ terminée, apportez le lingot d'étain à Fletch."
+  },
+  {
+    "Ori": "Convince John to Stay",
+    "Loc": "Persuade John de rester"
+  },
+  {
+    "Ori": "Fletch thinks that by doing favours for visitors and spending money at their stores, they might be convinced to stay permanently.",
+    "Loc": "Fletch pense qu'en aidant les visiteurs et en leur achetant des choses, cela devrait les inciter à rester sur l’île."
+  },
+  {
+    "Ori": "Build a House",
+    "Loc": "Construire une maison"
+  },
+  {
+    "Ori": "Build a house for new citizen.",
+    "Loc": "Construisez une maison pour les nouveaux habitants."
+  },
+  {
+    "Ori": "Build a bank",
+    "Loc": "Construire une banque."
+  },
+  {
+    "Ori": "Build a bank for the town.",
+    "Loc": "Construisez une banque pour la ville."
+  },
+  {
+    "Ori": "John Level 75",
+    "Loc": "John Niveau 75"
+  },
+  {
+    "Ori": "Teleporter",
+    "Loc": "Teleportation"
+  },
+  {
+    "Ori": "Place Dog House",
+    "Loc": "Placer une niche"
+  },
+  {
+    "Ori": "Place the Dog house down and speak to Irwin.",
+    "Loc": "Posez la niche puis parlez à Irwin."
+  },
+  {
+    "Ori": "Five's a Town",
+    "Loc": "Une ville à 5"
+  },
+  {
+    "Ori": "<IslandName> needs 5 permanent residents before South City will recognise it as an official settlement.þþDoing favours and spending Dinks at Visitor's tents might encourage them to stay.",
+    "Loc": "<IslandName> a besoin de 5 habitants pour que South City la reconnaisse comme une vraie colonie þþþ Aider les visiteurs et acheter leur des choses pour les persuader de s’installer sur l’île.."
+  },
+  {
+    "Ori": "Rayne Level 75",
+    "Loc": "Rayne Niveau 75"
+  },
+  {
+    "Ori": "Get House Deeds",
+    "Loc": "Obtenir les actes de propriété"
+  }
+]

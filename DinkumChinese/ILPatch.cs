@@ -69,7 +69,7 @@ namespace DinkumChinese
         [HarmonyTranspiler, HarmonyPatch(typeof(BugAndFishCelebration), "openWindow")]
         public static IEnumerable<CodeInstruction> BugAndFishCelebration_openWindow_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, "I caught a ", "J'ai caught un ");
+            instructions = ReplaceIL(instructions, "I caught a ", "J'ai attrapé un ");
             return instructions;
         }
 
@@ -80,7 +80,7 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, " with ", " avec ");
             instructions = ReplaceIL(instructions, "<sprite=12> Speak to ", "<sprite=12> Parler à ");
             instructions = ReplaceIL(instructions, "<sprite=12> Hunt down the ", "<sprite=12> Traquer le ");
-            instructions = ReplaceIL(instructions, " using its last know location on the map", "Utiliser le dernier emplacement connu sur la carte");
+            instructions = ReplaceIL(instructions, " using its last know location on the map", " utiliser le dernier emplacement connu sur la carte");
             instructions = ReplaceIL(instructions, "<sprite=13> Visit the location on the map to investigate", "<sprite=13> Visitez l'emplacement sur la carte pour enquêter");
             return instructions;
         }
@@ -106,7 +106,7 @@ namespace DinkumChinese
         [HarmonyTranspiler, HarmonyPatch(typeof(CameraController), "moveCameraToShowPos", MethodType.Enumerator)]
         public static IEnumerable<CodeInstruction> CameraController_moveCameraToShowPos_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, " is visiting the island!", "visite l'île !");
+            instructions = ReplaceIL(instructions, " is visiting the island!", " visite l'île !");
             instructions = ReplaceIL(instructions, "Someone is visiting the island!", "Quelqu'un visite l'île !");
             instructions = ReplaceIL(instructions, "No one is visiting today...", "Personne n'est venu aujourd'hui...");
             return instructions;
@@ -166,7 +166,7 @@ namespace DinkumChinese
         [HarmonyTranspiler, HarmonyPatch(typeof(EquipItemToChar), "OnDestroy")]
         public static IEnumerable<CodeInstruction> EquipItemToChar_OnDestroy_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, " has left", "  est parti");
+            instructions = ReplaceIL(instructions, " has left", " est parti");
             return instructions;
         }
 
@@ -237,8 +237,8 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, "Spring", "Printemps");
             instructions = ReplaceIL(instructions, "Bury", "Enterrer");
             instructions = ReplaceIL(instructions, "Speeds up certain production devices for up to 12 tiles", "Accélère certains appareils de production jusqu'à 12 tuiles");
-            instructions = ReplaceIL(instructions, "Reaches ", "Rayon de la plage d'irrigation");
-            instructions = ReplaceIL(instructions, " tiles out.\n<color=red>Requires Water Tank</color>", "la grille\n<color=red> à besoin d'un réservoir d'eau</color>");
+            instructions = ReplaceIL(instructions, "Reaches ", "Rayon de la plage d'irrigation ");
+            instructions = ReplaceIL(instructions, " tiles out.\n<color=red>Requires Water Tank</color>", " Hors de portée elle \n<color=red> à besoin d'un réservoir d'eau</color>");
             instructions = ReplaceIL(instructions, "Provides water to sprinklers ", "Fournit de l'eau aux gicleurs");
             instructions = ReplaceIL(instructions, " tiles out.", " Hors de portée");
             instructions = ReplaceIL(instructions, "Fills animal feeders ", "Remplit les mangeoires pour animaux");
@@ -261,9 +261,9 @@ namespace DinkumChinese
         [HarmonyTranspiler, HarmonyPatch(typeof(LicenceButton), "fillButton")]
         public static IEnumerable<CodeInstruction> LicenceButton_fillButton_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, "Level ", "Niveau");
-            instructions = ReplaceIL(instructions, "Level up your ", "Améliorez votre");
-            instructions = ReplaceIL(instructions, " skill to unlock further levels", "compétence pour débloquer d'autres niveaux");
+            instructions = ReplaceIL(instructions, "Level ", "Niveau ");
+            instructions = ReplaceIL(instructions, "Level up your ", "Améliorez votre ");
+            instructions = ReplaceIL(instructions, " skill to unlock further levels", " compétence pour débloquer d'autres niveaux");
             instructions = ReplaceIL(instructions, "Max Level", "Niveau Max");
             instructions = ReplaceIL(instructions, "Not Held", "Non détenu");
             return instructions;
@@ -272,7 +272,7 @@ namespace DinkumChinese
         [HarmonyTranspiler, HarmonyPatch(typeof(LicenceButton), "fillDetailsForJournal")]
         public static IEnumerable<CodeInstruction> LicenceButton_fillDetailsForJournal_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, "Level ", "Niveau");
+            instructions = ReplaceIL(instructions, "Level ", "Niveau ");
             instructions = ReplaceIL(instructions, "Max Level", "Niveau Max");
             return instructions;
         }
@@ -297,12 +297,12 @@ namespace DinkumChinese
         [HarmonyTranspiler, HarmonyPatch(typeof(LicenceManager), "openConfirmWindow")]
         public static IEnumerable<CodeInstruction> LicenceManager_openConfirmWindow_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, "Level ", "Niveau");
+            instructions = ReplaceIL(instructions, "Level ", "Niveau ");
             instructions = ReplaceIL(instructions, "You hold all ", "tu tiens tout ");
-            instructions = ReplaceIL(instructions, " levels", "Niveaux");
-            instructions = ReplaceIL(instructions, "Level up your ", "Améliorez votre");
+            instructions = ReplaceIL(instructions, " levels", " Niveaux");
+            instructions = ReplaceIL(instructions, "Level up your ", "Améliorez votre ");
             instructions = ReplaceIL(instructions, " skill to unlock further levels", "compétence pour débloquer d'autres niveaux");
-            instructions = ReplaceIL(instructions, "You hold all current ", "Vous détenez déjà tout");
+            instructions = ReplaceIL(instructions, "You hold all current ", "Vous détenez déjà tout ");
             return instructions;
         }
 
@@ -329,7 +329,7 @@ namespace DinkumChinese
         [HarmonyTranspiler, HarmonyPatch(typeof(NetworkMapSharer), "UserCode_RpcAddToMuseum")]
         public static IEnumerable<CodeInstruction> NetworkMapSharer_UserCode_RpcAddToMuseum_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, "Donated by ", "Donné par：");
+            instructions = ReplaceIL(instructions, "Donated by ", "Donné par： ");
             return instructions;
         }
 

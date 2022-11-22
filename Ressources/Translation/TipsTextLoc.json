@@ -1,0 +1,154 @@
+[
+    {
+        "Ori": "Talking to people every day will increase your friendship with them.",
+        "Loc": "Parler aux gens tous les jours améliorera votre amitié avec eux."
+    },
+    {
+        "Ori": "Promising to complete a task and not delivering isn’t a good idea.",
+        "Loc": "Ce n'est pas bien de briser une promesse."
+    },
+    {
+        "Ori": "The better you are at a skill, the less stamina you’ll use doing it.",
+        "Loc": "Plus votre niveau dans une compétence est élevé, moins celle-ci vous fatiguera."
+    },
+    {
+        "Ori": "Swimming for too long can be hazardous to your health.",
+        "Loc": "Nager trop longtemps peut être dangereux pour vous."
+    },
+    {
+        "Ori": "If it’s shiny, it’s probably worth something.",
+        "Loc": "Si quelque chose scintille, cela vaut probablement quelques Dinks."
+    },
+    {
+        "Ori": "Almost anything can be sold, but not everything can be bought.",
+        "Loc": "Presque tout peut être vendu, mais tout ne peut pas être acheté."
+    },
+    {
+        "Ori": "Tools will break if you use them too much.",
+        "Loc": "Les outils finiront par se casser avec le temps."
+    },
+    {
+        "Ori": "Crafted items tend to be more valuable than their ingredients.",
+        "Loc": "Les objets fabriqués à la main ont souvent plus de valeur que leurs ingrédients."
+    },
+    {
+        "Ori": "Passing out will do damage to your tools.",
+        "Loc": "Vous évanouir endommagera vos outils"
+    },
+    {
+        "Ori": "If you need a bed, Fletch keeps sleeping bags in the Base Tent.",
+        "Loc": "Si vous avez besoin d'un lit, Fletch garde des sacs de couchage dans sa tente."
+    },
+    {
+        "Ori": "Digging is real fun. Digging is real fun. Digging is real fun.",
+        "Loc": "Creuser est vraiment amusant. Creuser est vraiment amusant. Creuser est vraiment amusant."
+    },
+    {
+        "Ori": "Sharks are only tough when they are in the water.",
+        "Loc": "Les requins ne sont féroces que dans l'eau."
+    },
+    {
+        "Ori": "Sometimes trees can drop other items.",
+        "Loc": "Parfois, les arbres laissent tomber d'autres objets."
+    },
+    {
+        "Ori": "Wild animals can be kept in a pen if you fence them off.",
+        "Loc": "Les animaux sauvages peuvent être mis dans des enclos."
+    },
+    {
+        "Ori": "You can bury items by dropping them on the ground and covering them with dirt.",
+        "Loc": "Vous pouvez enterrer des objets en les jetant au sol puis en les couvrant de terre.."
+    },
+    {
+        "Ori": "Food made at a cooking table will recover more health and stamina.",
+        "Loc": "Les aliments préparés à la cuisinerestaurent plus de santé et d'endurance."
+    },
+    {
+        "Ori": "You can place carryable items on most vehicles.",
+        "Loc": "Vous pouvez placer des objets transportables sur la plupart des véhicules."
+    },
+    {
+        "Ori": "Different fish can be found depending on the  season, biome and time of day.",
+        "Loc": "Différents poissons peuvent être pêchés selon la saison, le terrain et l'heure de la journée."
+    },
+    {
+        "Ori": "Staying out late will tire you out.",
+        "Loc": "Veillez tard la nuit vous épuisera."
+    },
+    {
+        "Ori": "Spring is egg season.",
+        "Loc": "Le printemps est la saison de ponte."
+    },
+    {
+        "Ori": "A shady visitor might appear on rainy days.",
+        "Loc": "Un visiteur mystérieux apparaît les jours de pluie."
+    },
+    {
+        "Ori": "Fletch might be able to help you upgrade your home.",
+        "Loc": "Fletch pourra peut-être vous aider à améliorer votre maison."
+    },
+    {
+        "Ori": "Animals can be caught in traps easier if they have low health.",
+        "Loc": "Il est plus simple de capturer des animaux s’il leur reste peu de santé. ."
+    },
+    {
+        "Ori": "Wild Animals will eat your crops if they aren’t fenced off.",
+        "Loc": "Sans clôture, les animaux sauvages mangeront vos récoltes."
+    },
+    {
+        "Ori": "Keep your farm animals safe by fencing them off from predators.",
+        "Loc": "Protégez vos animaux de ferme des prédateurs grâce à des clôtures."
+    },
+    {
+        "Ori": "Try cooking all sorts of food.",
+        "Loc": "Essayez de cuisiner plein d'aliments."
+    },
+    {
+        "Ori": "Wheelbarrows can carry other items besides dirt.",
+        "Loc": "Une brouette peut transporter autre chose que de la terre."
+    },
+    {
+        "Ori": "Use the whistle emote to call farm animals to you.",
+        "Loc": "Vous pouvez utiliser l’emote Siffler pour attirer les animaux de ferme vers vous. "
+    },
+    {
+        "Ori": "Certain flowers can be placed in a keg.",
+        "Loc": "Certaines fleurs peuvent être mises en fût."
+    },
+    {
+        "Ori": "The mines layout shifts and changes every day.",
+        "Loc": "Les mines changent tous les jours."
+    },
+    {
+        "Ori": "Fletch can help you move buildings if you need to.",
+        "Loc": "Fletch peut vous aider à déménager un bâtiment si nécessaire."
+    },
+    {
+        "Ori": "Be wary of the Wary Mu.",
+        "Loc": "Méfiez-vous des casoars."
+    },
+    {
+        "Ori": "Crops that grow all year are worth less than seasonal crops.",
+        "Loc": "Les cultures qui poussent toute l’année ont moins de valeur que les cultures saisonnières."
+    },
+    {
+        "Ori": "You can pick up vehicles by damaging them.",
+        "Loc": "Vous pouvez ramasser des véhicules en les attaquant."
+    },
+    {
+        "Ori": "Bats are annoying.",
+        "Loc": "Les chauves-souris sont agaçantes."
+    },
+    {
+        "Ori": "Don't leave stuff in the mines if you want to keep it.",
+        "Loc": "Ne laissez rien dans les mines sous peine de les perdre. ."
+    },
+    {
+        "Ori": "The travel bag in the Base Tent can be accessed from any island.",
+        "Loc": "Les objets dans la valise de la tente de base peuvent être récupérés sur n'importe quelle île."
+    },
+    {
+        "Ori": "You will recover stamina slowly if you are full.",
+        "Loc": "Si vous êtes rassasié, vous récupérerez lentement vos forces."
+    }
+]

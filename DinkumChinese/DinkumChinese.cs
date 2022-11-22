@@ -16,7 +16,7 @@ using I2LocPatch;
 
 namespace DinkumChinese
 {
-    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.11.0")]
+    [BepInPlugin("Shidorien.Dinkum.DinkumFrench", "DinkumFrench", "0.1.0")]
     public class DinkumChinesePlugin : BaseUnityPlugin
     {
         public static DinkumChinesePlugin Inst;

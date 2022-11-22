@@ -1,0 +1,938 @@
+[
+  {
+    "Text": "<size=8>Retour",
+    "Bind": "MapCanvas/BackHint/Text"
+  },
+  {
+    "Text": "Quitter le jeu",
+    "Bind": "Quit To Desktop/Text"
+  },
+  {
+    "Text": "Options",
+    "Bind": "OptionWindow/Content/Title (1)"
+  },
+  {
+    "Text": "Affichage",
+    "Bind": "Screen/Title (1)/TitleText"
+  },
+  {
+    "Text": "Plein écran",
+    "Bind": "Screen/FullScreen/Label"
+  },
+  {
+    "Text": "Résolution",
+    "Bind": "Screen/Resolution/Label"
+  },
+  {
+    "Text": "Appliquer",
+    "Bind": "Screen/Resolution/Apply/ApplyLabel"
+  },
+  {
+    "Text": "Mise à l'échelle de l'interface",
+    "Bind": "Screen/UI Scale/Label"
+  },
+  {
+    "Text": "Normal",
+    "Bind": "Screen/UI Scale/Normal/ApplyLabel"
+  },
+  {
+    "Text": "Étendue",
+    "Bind": "Screen/UI Scale/Wide/ApplyLabel"
+  },
+  {
+    "Text": "Qualité de rendu",
+    "Bind": "Screen/Quality/Label (1)"
+  },
+  {
+    "Text": "Bas",
+    "Bind": "Screen/Quality/QualityButton 0/Label"
+  },
+  {
+    "Text": "Moyen",
+    "Bind": "Screen/Quality/QualityButton 1/Label"
+  },
+  {
+    "Text": "Haut",
+    "Bind": "Screen/Quality/QualityButton 2/Label"
+  },
+  {
+    "Text": "Distance d'affichage",
+    "Bind": "Screen/ChunkDistance/Label (1)"
+  },
+  {
+    "Text": "Son",
+    "Bind": "Sound/Title/TitleText"
+  },
+  {
+    "Text": "Volume global",
+    "Bind": "Sound/Master/Sound Effect Title"
+  },
+  {
+    "Text": "Effet sonore",
+    "Bind": "Sound/Effects/Sound Effect Title"
+  },
+  {
+    "Text": "Volume de l'UI",
+    "Bind": "Sound/UI Volume/Sound Effect Title"
+  },
+  {
+    "Text": "Volume de la musique",
+    "Bind": "Sound/Music/Music Title"
+  },
+  {
+    "Text": "Activer la voix du personnage",
+    "Bind": "Sound/VoicesOn/Label"
+  },
+  {
+    "Text": "Caméra",
+    "Bind": "Camera Controls/Camera/TitleText"
+  },
+  {
+    "Text": "Inverser le tir libre",
+    "Bind": "Camera Controls/Invert/Lable"
+  },
+  {
+    "Text": "Inverser X",
+    "Bind": "Camera Controls/Invert/InvertX"
+  },
+  {
+    "Text": "Inverser Y",
+    "Bind": "Camera Controls/Invert/InvertY"
+  },
+  {
+    "Text": "Maintenez enfoncé le bouton central de la souris ou Maj pour déplacer la caméra",
+    "Bind": "Camera Controls/CameraToggle (1)/Lable"
+  },
+  {
+    "Text": "La souris continue de déplacer la caméra",
+    "Bind": "Camera Controls/CameraToggle/Lable"
+  },
+  {
+    "Text": "Jeu",
+    "Bind": "Controls/Title (1)/TitleText"
+  },
+  {
+    "Text": "Gérer les vibrations",
+    "Bind": "Controls/Rumble/Text"
+  },
+  {
+    "Text": "Aligner le curseur sur l'interface utilisateur(contrôleur uniquement)",
+    "Bind": "Controls/SnapCursorCheckBox/Text"
+  },
+  {
+    "Text": "Vitesse du texte",
+    "Bind": "Controls/TextSpeed/Label (1)"
+  },
+  {
+    "Text": "Ordinaire",
+    "Bind": "Controls/TextSpeed/TextSpeed 0/Label"
+  },
+  {
+    "Text": "Rapide",
+    "Bind": "Controls/TextSpeed/TextSpeed 1/Label"
+  },
+  {
+    "Text": "Super rapide",
+    "Bind": "Controls/TextSpeed/TextSpeed 2/Label"
+  },
+  {
+    "Text": "Contrôleur de détection automatique",
+    "Bind": "Controls/CharacterNameTagToggle (1)/Lable"
+  },
+  {
+    "Text": "Nom des joueur en ligne",
+    "Bind": "Controls/CharacterNameTagToggle/Lable"
+  },
+  {
+    "Text": "Jeu solo",
+    "Bind": "LoadGameWindow/Contents/Title"
+  },
+  {
+    "Text": "Aléatoire",
+    "Bind": "CharCreator/Content/CharImage/Randomise/Text"
+  },
+  {
+    "Text": "Comment vous appelez-vous  ?",
+    "Bind": "CharCreator/Content/CreatorBack/Confirm/CharNameTitle"
+  },
+  {
+    "Text": "Quel est le nom de votre île ?",
+    "Bind": "CharCreator/Content/CreatorBack/Confirm/IslandNameTitle"
+  },
+  {
+    "Text": "Création d'un personnage",
+    "Bind": "CharCreator/Content/CreatorBack/Confirm/CreateCharacter/Text"
+  },
+  {
+    "Text": "Confirmer",
+    "Bind": "CharCreator/Content/WindowBack (3)/TopBar/Confirm/Text (3)"
+  },
+  {
+    "Text": "Jalons",
+    "Bind": "Journal/Tabs/Milestones/Text"
+  },
+  {
+    "Text": "Jalons",
+    "Bind": "Journal/SelectedTab/Milestones/Text"
+  },
+  {
+    "Text": "Jalons",
+    "Bind": "Journal/Pages/Milestones/NutBack/DailyTasksTitle"
+  },
+  {
+    "Text": "Tâche",
+    "Bind": "Journal/Tabs/Task/Text"
+  },
+  {
+    "Text": "Tâche",
+    "Bind": "Journal/SelectedTab/Task/Text"
+  },
+  {
+    "Text": "Tâche",
+    "Bind": "Journal/Pages/QuestWindow/NutBack/Title"
+  },
+  {
+    "Text": "Tâche",
+    "Bind": "Journal/Pages/QuestWindow/QuestsTracker/NoQuestsWindow/NutBack (1)/Title"
+  },
+  {
+    "Text": "Tâche",
+    "Bind": "Journal/Pages/QuestWindow/Contents/TopBar/TitleText"
+  },
+  {
+    "Text": "Bébêtopédie",
+    "Bind": "Journal/Tabs/Pedia/Text"
+  },
+  {
+    "Text": "Bébêtopédie",
+    "Bind": "Journal/SelectedTab/Pedia/Text"
+  },
+  {
+    "Text": "Bébêtopédie",
+    "Bind": "Journal/Pages/Pedia/NutBack/Title"
+  },
+  {
+    "Text": "Mes informations",
+    "Bind": "Journal/Tabs/PlayerDetails/Text"
+  },
+  {
+    "Text": "Mes informations",
+    "Bind": "Journal/SelectedTab/PlayerDetails/Text"
+  },
+  {
+    "Text": "Mes informations",
+    "Bind": "Journal/Pages/PlayerDetails/NutBack/Title"
+  },
+  {
+    "Text": "Photos",
+    "Bind": "Journal/Tabs/Photos/Text"
+  },
+  {
+    "Text": "Photos",
+    "Bind": "Journal/SelectedTab/Photos/Text"
+  },
+  {
+    "Text": "Photos",
+    "Bind": "Journal/Pages/PhotosTab/NutBack (1)/Title"
+  },
+  {
+    "Text": "Animaux",
+    "Bind": "Journal/Tabs/FarmAnimals/Text"
+  },
+  {
+    "Text": "Animaux",
+    "Bind": "Journal/SelectedTab/FarmAnimal/Text"
+  },
+  {
+    "Text": "Animaux",
+    "Bind": "Journal/Pages/FarmAnimalTab/NutBack (1)/DailyTasksTitle"
+  },
+  {
+    "Text": "Options",
+    "Bind": "Journal/Tabs/Options/Text"
+  },
+  {
+    "Text": "Options",
+    "Bind": "Journal/SelectedTab/Options/Text"
+  },
+  {
+    "Text": "Options",
+    "Bind": "Journal/Pages/Options/NutBack/Title"
+  },
+  {
+    "Text": "Tâches quotidiennes",
+    "Bind": "Journal/Pages/Milestones/DailyTasks/DailyTaskTitle/Title"
+  },
+  {
+    "Text": "Poissons",
+    "Bind": "Journal/Pages/Pedia/SideButtons/FishButton/Title"
+  },
+  {
+    "Text": "Insectes",
+    "Bind": "Journal/Pages/Pedia/SideButtons/BugButton/Title (1)"
+  },
+  {
+    "Text": "Créatures sous-marines",
+    "Bind": "Journal/Pages/Pedia/SideButtons/UnderwaterCreatures/Title (1)"
+  },
+  {
+    "Text": "Reliques culturelles",
+    "Bind": "Journal/Pages/Pedia/SideButtons/RelicButton/Title (1)"
+  },
+  {
+    "Text": "Animaux",
+    "Bind": "Journal/Pages/Pedia/SideButtons/Animals/Title (1)"
+  },
+  {
+    "Text": "Habitants",
+    "Bind": "Journal/Pages/Pedia/SideButtons/People Button/Title (1)"
+  },
+  {
+    "Text": "Recettes",
+    "Bind": "Journal/Pages/Pedia/SideButtons/Recipes/Title (1)"
+  },
+  {
+    "Text": "Licences",
+    "Bind": "Journal/Pages/Pedia/SideButtons/Licences/Title (1)"
+  },
+  {
+    "Text": "Carte d'identité",
+    "Bind": "Journal/Pages/PlayerDetails/SideButtons/MyId/Title"
+  },
+  {
+    "Text": "Licences",
+    "Bind": "Journal/Pages/PlayerDetails/SideButtons/Licences/Title"
+  },
+  {
+    "Text": "Agriculture",
+    "Bind": "Journal/Pages/PlayerDetails/Contents/PlayerDetailMask/MyId/FarmingLevel/Text"
+  },
+  {
+    "Text": "Survie",
+    "Bind": "Journal/Pages/PlayerDetails/Contents/PlayerDetailMask/MyId/ForagingLevel/Text"
+  },
+  {
+    "Text": "Exploitation minière",
+    "Bind": "Journal/Pages/PlayerDetails/Contents/PlayerDetailMask/MyId/MiningLevel/Text"
+  },
+  {
+    "Text": "Pêche",
+    "Bind": "Journal/Pages/PlayerDetails/Contents/PlayerDetailMask/MyId/FishingLevel/Text"
+  },
+  {
+    "Text": "Chasse",
+    "Bind": "Journal/Pages/PlayerDetails/Contents/PlayerDetailMask/MyId/HuntingLevel/Text"
+  },
+  {
+    "Text": "Entomologiste",
+    "Bind": "Journal/Pages/PlayerDetails/Contents/PlayerDetailMask/MyId/BugCatchingLevel/Text"
+  },
+  {
+    "Text": "Tout",
+    "Bind": "Journal/Pages/FarmAnimalTab/AnimalSelection/AllButton/AnimalIcon"
+  },
+  {
+    "Text": "Options",
+    "Bind": "Journal/Pages/Options/Contents/SideButtons/Settings/Title"
+  },
+  {
+    "Text": "Menu principal",
+    "Bind": "Journal/Pages/Options/Contents/SideButtons/ReturnToMenu/Title"
+  },
+  {
+    "Text": "Quitter le jeu",
+    "Bind": "Journal/Pages/Options/Contents/SideButtons/Return To Desktop/Title"
+  },
+  {
+    "Text": "Annuler",
+    "Bind": "Journal/Pages/Options/Contents/ConfirmQuit/Cancel/Title"
+  },
+  {
+    "Text": "Quitter",
+    "Bind": "Journal/Pages/Options/Contents/ConfirmQuit/Quit/Title"
+  },
+  {
+    "Text": "Nb de captures",
+    "Bind": "Journal/Pages/PediaFullScreen/Contents/DetailGrid/Amount Caught/Amount Caught (1)/TitleText"
+  },
+  {
+    "Text": "Habitat",
+    "Bind": "Journal/Pages/PediaFullScreen/Contents/DetailGrid/Habitiat/Amount Caught (2)/TitleText"
+  },
+  {
+    "Text": "Horaire",
+    "Bind": "Journal/Pages/PediaFullScreen/Contents/DetailGrid/Times/Amount Caught (2)/TitleText"
+  },
+  {
+    "Text": "Saison",
+    "Bind": "Journal/Pages/PediaFullScreen/Contents/DetailGrid/Season/Amount Caught (2)/TitleText"
+  },
+  {
+    "Text": "Êtes-vous sûr de vouloir quitter?",
+    "Bind": "Journal/Pages/Options/Contents/ConfirmQuit/Title (1)"
+  },
+  {
+    "Text": "Vous perdrez toute progression depuis la dernière fois où vous avez dormi.",
+    "Bind": "Journal/Pages/Options/Contents/ConfirmQuit/UI"
+  },
+  {
+    "Text": "Jeu multijoueur",
+    "Bind": "MenuScreen/LoadGameWindowMultiplayer/Contents/Title (1)"
+  },
+  {
+    "Text": "<size=30>Jeu multijoueur",
+    "Bind": "MenuScreen/Multiplayer/Contents/Title (2)"
+  },
+  {
+    "Text": "Héberger la partie",
+    "Bind": "MenuScreen/Multiplayer/Contents/WindowBack (4)/FakeButtons/Host Game/Text"
+  },
+  {
+    "Text": "Héberger la partie",
+    "Bind": "MenuScreen/Multiplayer/Contents/WindowBack (4)/RealButtons/Host Game/Text"
+  },
+  {
+    "Text": "Rejoindre une partie",
+    "Bind": "MenuScreen/Multiplayer/Contents/WindowBack (4)/FakeButtons/FriendsGames/Text"
+  },
+  {
+    "Text": "Rejoindre une partie",
+    "Bind": "MenuScreen/Multiplayer/Contents/WindowBack (4)/RealButtons/FriendsGames/Text"
+  },
+  {
+    "Text": "LAN/IP",
+    "Bind": "MenuScreen/Multiplayer/Contents/WindowBack (4)/FakeButtons/DirectConnect/Text (1)"
+  },
+  {
+    "Text": "LAN/IP",
+    "Bind": "MenuScreen/Multiplayer/Contents/WindowBack (4)/RealButtons/DirectConnect/Text (1)"
+  },
+  {
+    "Text": "N'importe qui sur votre liste d'amis peut rejoindre cette partie !\nAssurez-vous que votre système d'amis steam et celui de votre ami sont en ligne.",
+    "Bind": "MenuScreen/Multiplayer/Contents/Host Game /ServerExplaination/FriendOnlyGame"
+  },
+  {
+    "Text": "Seules les personnes que vous invitez peuvent rejoindre.\nUtilisez Steam pour inviter des personnes.",
+    "Bind": "MenuScreen/Multiplayer/Contents/Host Game /ServerExplaination/InviteGame"
+  },
+  {
+    "Text": "Tout le monde peut rejoindre ce monde.<color=red>Ils peuvent prendre vos affaires, alors faites attention !",
+    "Bind": "MenuScreen/Multiplayer/Contents/Host Game /ServerExplaination/PublicGame"
+  },
+  {
+    "Text": "Utilisez un réseau local pour héberger le jeu. Entrez l'adresse IP locale dans l'onglet de connexion LAN/IP pour vous connecter.",
+    "Bind": "MenuScreen/Multiplayer/Contents/Host Game /ServerExplaination/LANGame"
+  },
+  {
+    "Text": "Héberger la partie",
+    "Bind": "MenuScreen/Multiplayer/Contents/Host Game /SaveSlot/HostButton/Text"
+  },
+  {
+    "Text": "Actualiser la liste",
+    "Bind": "MenuScreen/Multiplayer/Contents/SearchForGame/RefreshTitle"
+  },
+  {
+    "Text": "Recherche...",
+    "Bind": "MenuScreen/Multiplayer/Contents/SearchForGame/SlotMask (1)/SlotScrollArea/LoadingBar/Searching"
+  },
+  {
+    "Text": "Adresse IP",
+    "Bind": "MenuScreen/Multiplayer/Contents/DirectConnect/Title (2)"
+  },
+  {
+    "Text": "Se connecter",
+    "Bind": "MenuScreen/Multiplayer/Contents/DirectConnect/JoinButton/Text"
+  },
+  {
+    "Text": "Recettes",
+    "Bind": "CraftWindow/Contents/CraftBox/RecipeIngredients/Name (1)"
+  },
+  {
+    "Text": "J'accepte",
+    "Bind": "BullitenBoard/Content/FullScreenTask/Accept/AcceptedText"
+  },
+  {
+    "Text": "Accepter",
+    "Bind": "BullitenBoard/Content/FullScreenTask/AcceptedDeactivated/AcceptedText"
+  },
+  {
+    "Text": "Vous vous êtes évanoui !",
+    "Bind": "MapCanvas/ReviveWindow/TopNotification (1)/Content/Verticle/Text"
+  },
+  {
+    "Text": "Ressusciter",
+    "Bind": "MapCanvas/ReviveWindow/ReviveButton/Passed Out Text (1)"
+  },
+  {
+    "Text": "Annuler",
+    "Bind": "MapCanvas/MapWindow/MapPos/TeletowerConfirm/Cancel/Fill/TeletowerConfirm (1)"
+  },
+  {
+    "Text": "Envoyer",
+    "Bind": "MapCanvas/MapWindow/MapPos/TeletowerConfirm/Confirm/Fill/TeletowerConfirm (1)"
+  },
+  {
+    "Text": "Téléportation vers cette tour de communication ?",
+    "Bind": "MapCanvas/MapWindow/MapPos/TeletowerConfirm/TeletowerConfirm (1)"
+  },
+  {
+    "Text": "Carte",
+    "Bind": "MapCanvas/MapWindow/MapPos/TopBar/TitleText"
+  },
+  {
+    "Text": "Choisissez une photo",
+    "Bind": "MapCanvas/PhotoOnlyPos/PhotosTab/BlownUpImage/Frame/Details/ShowButton/Bin/Title (1)"
+  },
+  {
+    "Text": "Annuler",
+    "Bind": "MapCanvas/Journal/Pages/PhotosTab/BlownUpImage/ConfirmWindow/ConfirmBox/Cancel/Text"
+  },
+  {
+    "Text": "Effacer",
+    "Bind": "MapCanvas/Journal/Pages/PhotosTab/BlownUpImage/ConfirmWindow/ConfirmBox/DeleteButton/Text"
+  },
+  {
+    "Text": "Ordre",
+    "Bind": "Canvas/CatalogueWindow/Content/ItemPreviewWindow/OrderButton/Title Text (1)"
+  },
+  {
+    "Text": "Vous recevrez votre article par la poste demain.",
+    "Bind": "Canvas/CatalogueWindow/Content/OrderConfirmed/GameObject/GameObject"
+  },
+  {
+    "Text": "Commandé avec succès",
+    "Bind": "Canvas/CatalogueWindow/Content/OrderConfirmed/GameObject/GameObject (1)"
+  },
+  {
+    "Text": "Ouvert",
+    "Bind": "Canvas/MailBox/Contents/ShowLetterWindow/PostTextBorder/Open Letter/OpenButton/OPEN"
+  },
+  {
+    "Text": "Nouvelle tâche!",
+    "Bind": "Canvas/BullitenBoard/Content/FullScreenTask/NewStamp/New"
+  },
+  {
+    "Text": "Nouvelle tâche!",
+    "Bind": "Canvas/BullitenBoard/Content/TaskButtons/TaskButton/NewStamp/New"
+  },
+  {
+    "Text": "Nouvelle tâche!",
+    "Bind": "Canvas/BullitenBoard/Content/TaskButtons/TaskButton (1)/NewStamp/New"
+  },
+  {
+    "Text": "Nouvelle tâche!",
+    "Bind": "Canvas/BullitenBoard/Content/TaskButtons/TaskButton (2)/NewStamp/New"
+  },
+  {
+    "Text": "Nouvelle tâche!",
+    "Bind": "Canvas/BullitenBoard/Content/TaskButtons/TaskButton (3)/NewStamp/New"
+  },
+  {
+    "Text": "Accepter",
+    "Bind": "Canvas/BullitenBoard/Content/TaskButtons/TaskButton/AcceptedStamp/New"
+  },
+  {
+    "Text": "Accepter",
+    "Bind": "Canvas/BullitenBoard/Content/TaskButtons/TaskButton (2)/AcceptedStamp/New"
+  },
+  {
+    "Text": "Accepter",
+    "Bind": "Canvas/BullitenBoard/Content/TaskButtons/TaskButton (3)/AcceptedStamp/New"
+  },
+  {
+    "Text": "Récompense",
+    "Bind": "Canvas/BullitenBoard/Content/FullScreenTask/RewardSlot/Reward"
+  },
+  {
+    "Text": "Confirmer",
+    "Bind": "Canvas/BankWindow/Contents/ConvertionConfirm/Confirm/Balance"
+  },
+  {
+    "Text": "Paiement",
+    "Bind": "Canvas/BankWindow/Contents/TopBar (1)/PocketTitle"
+  },
+  {
+    "Text": "Confirmer l'échange",
+    "Bind": "Canvas/BankWindow/Contents/ConvertionConfirm/TitleBox/Title"
+  },
+  {
+    "Text": "Annuler",
+    "Bind": "Canvas/BankWindow/Contents/ChangeWindow/Cancle/Balance"
+  },
+  {
+    "Text": "Annuler",
+    "Bind": "Canvas/BankWindow/Contents/ConvertionConfirm/Cancle/Balance"
+  },
+  {
+    "Text": "Confirmer",
+    "Bind": "Canvas/BankWindow/Contents/ChangeWindow/Confirm/Balance"
+  },
+  {
+    "Text": "Annuler",
+    "Bind": "Canvas/BankWindow/Contents/MenuButtons/Cancel/Balance"
+  },
+  {
+    "Text": "Il n'y a actuellement aucune tâche",
+    "Bind": "MapCanvas/Journal/Pages/QuestWindow/QuestsTracker/NoQuestsWindow/Quest Description"
+  },
+    {
+    "Text": "Accepter",
+    "Bind": "Canvas/BullitenBoard/Content/TaskButtons/TaskButton (1)/AcceptedStamp/New"
+  },
+  {
+    "Text": "Compléter",
+    "Bind": "Canvas/BullitenBoard/Content/TaskButtons/TaskButton/CompletedStamp/Completed"
+  },
+  {
+    "Text": "Gagner de l'argent",
+    "Bind": "MapCanvas/BlackFade/LevelUp/DayEndWindow/TaskMask/TaskList/MoneyEarnt/Text"
+  },
+  {
+    "Text": "Niveau de minage",
+    "Bind": "MapCanvas/BlackFade/LevelUp/DayEndWindow/TaskMask/TaskList/Level Mining/Text"
+  },
+  {
+    "Text": "Niveau d'agriculture",
+    "Bind": "MapCanvas/BlackFade/LevelUp/DayEndWindow/TaskMask/TaskList/Level Farming/Text"
+  },
+  {
+    "Text": "Niveau d'entomologiste ",
+    "Bind": "MapCanvas/BlackFade/LevelUp/DayEndWindow/TaskMask/TaskList/Level Bug/Text"
+  },
+  {
+    "Text": "Niveau de pêche",
+    "Bind": "MapCanvas/BlackFade/LevelUp/DayEndWindow/TaskMask/TaskList/Level Fishing/Text"
+  },
+  {
+    "Text": "Niveau de chasse",
+    "Bind": "MapCanvas/BlackFade/LevelUp/DayEndWindow/TaskMask/TaskList/Level Hunting/Text"
+  },
+  {
+    "Text": "Niveau en survie",
+    "Bind": "MapCanvas/BlackFade/LevelUp/DayEndWindow/TaskMask/TaskList/Level Foraging/Text"
+  },
+  {
+    "Text": "Couleur secondaire",
+    "Bind": "Canvas/HouseCustomisation/Content/ColorOptions/Color 2/Text"
+  },
+  {
+    "Text": "Couleur principale",
+    "Bind": "Canvas/HouseCustomisation/Content/ColorOptions/Color 1/Text"
+  },
+  {
+    "Text": "(Appuyez et maintenez) Déplacez la souris",
+    "Bind": "MapCanvas/Tutorial/CameraTutorial/Keyboard/Sub/Title (1)"
+  },
+  {
+    "Text": "Point de vue mobile",
+    "Bind": "MapCanvas/Tutorial/CameraTutorial/Title"
+  },
+  {
+    "Text": "Ouvrir le sac à dos",
+    "Bind": "MapCanvas/Tutorial/Bag Tutorial/Title"
+  },
+  {
+    "Text": "Retour au menu principal",
+    "Bind": "MapCanvas/Journal/SettingJournalClosed/ReturnToMenu/Title"
+  },
+  {
+    "Text": "Options",
+    "Bind": "MapCanvas/Journal/SettingJournalClosed/SettingJournalClosed/Title"
+  },
+  {
+    "Text": "Annuler",
+    "Bind": "MapCanvas/Journal/SettingJournalClosed/ConfirmQuit/Cancel/Title"
+  },
+  {
+    "Text": "Vous perdrez toute progression depuis la dernière fois où vous avez dormi.",
+    "Bind": "MapCanvas/Journal/SettingJournalClosed/ConfirmQuit/UI"
+  },
+  {
+    "Text": "Quitter",
+    "Bind": "MapCanvas/Journal/SettingJournalClosed/ConfirmQuit/Quit/Title"
+  },
+  {
+    "Text": "Tâche",
+    "Bind": "MapCanvas/Journal/QuestWindow/NutBack/Title"
+  },
+  {
+    "Text": "Se déplacer",
+    "Bind": "MapCanvas/Tutorial/WalkTutorial/Title"
+  },
+  {
+    "Text": "Tâche",
+    "Bind": "MapCanvas/Journal/QuestWindow/QuestsTracker/NoQuestsWindow/NutBack (1)/Title"
+  },
+  {
+    "Text": "Il n'y a actuellement aucune tâche",
+    "Bind": "MapCanvas/Journal/QuestWindow/QuestsTracker/NoQuestsWindow/Quest Description"
+  },
+  {
+    "Text": "Êtes-vous sûr de vouloir quitter?",
+    "Bind": "MapCanvas/Journal/SettingJournalClosed/ConfirmQuit/Title (1)"
+  },
+  {
+    "Text": "Poste vacant",
+    "Bind": "MapCanvas/Journal/Pages/Options/Contents/MultiplayerOptions/Fake/PlayerButton/PlayerName (1)"
+  },
+  {
+    "Text": "Poste vacant",
+    "Bind": "MapCanvas/Journal/Pages/Options/Contents/MultiplayerOptions/Fake/PlayerButton/PlayerName (2)"
+  },
+  {
+    "Text": "Poste vacant",
+    "Bind": "MapCanvas/Journal/Pages/Options/Contents/MultiplayerOptions/Fake/PlayerButton (1)/PlayerName (3)"
+  },
+  {
+    "Text": "Inviter",
+    "Bind": "MapCanvas/Journal/Pages/Options/Contents/MultiplayerOptions/Fake/FakeInvite/Title"
+  },
+  {
+    "Text": "Inviter",
+    "Bind": "MapCanvas/Journal/Pages/Options/Contents/MultiplayerOptions/Multiplayer (1)/InviteButton/Title"
+  },
+  {
+    "Text": "<sprite=17> Partie entre amis",
+    "Bind": "MapCanvas/MenuScreen/Multiplayer/Contents/SearchForGame/SearchSettingsButtons/Friends/Text"
+  },
+  {
+    "Text": "<sprite=17> Partie publique",
+    "Bind": "MapCanvas/MenuScreen/Multiplayer/Contents/SearchForGame/SearchSettingsButtons/Public/Text"
+  },
+  {
+    "Text": "Partie non trouvée",
+    "Bind": "MapCanvas/MenuScreen/Multiplayer/Contents/SearchForGame/SlotMask (1)/SlotScrollArea/No Games Found"
+  },
+  {
+    "Text": "Rejoindre la partie",
+    "Bind": "MapCanvas/MenuScreen/Multiplayer/Contents/TopBar/Title"
+  },
+  {
+    "Text": "Supprimer la sauvegarde ?",
+    "Bind": "MapCanvas/MenuScreen/LoadGameWindow/Contents/SlotMask/SlotScrollArea/SaveSlot(Clone)/DeleteSaveWindow/Text"
+  },
+  {
+    "Text": "Non",
+    "Bind": "MapCanvas/MenuScreen/LoadGameWindow/Contents/SlotMask/SlotScrollArea/SaveSlot(Clone)/DeleteSaveWindow/No/Text"
+  },
+  {
+    "Text": "Oui",
+    "Bind": "MapCanvas/MenuScreen/LoadGameWindow/Contents/SlotMask/SlotScrollArea/SaveSlot(Clone)/DeleteSaveWindow/Yes/Text"
+  },
+  {
+    "Text": "Pas de nouveau courrier",
+    "Bind": "Canvas/MailBox/Contents/No Messages Screen/Quest Description"
+  },
+  {
+    "Text": "Expulser",
+    "Bind": "MapCanvas/Journal/Pages/Options/Contents/MultiplayerOptions/Multiplayer (1)/PlayerButton (0)/KickButton/GameObject"
+  },
+  {
+    "Text": "Expulser",
+    "Bind": "MapCanvas/Journal/Pages/Options/Contents/MultiplayerOptions/Multiplayer (1)/PlayerButton (1)/KickButton/GameObject"
+  },
+  {
+    "Text": "Expulser",
+    "Bind": "MapCanvas/Journal/Pages/Options/Contents/MultiplayerOptions/Multiplayer (1)/PlayerButton (2)/KickButton/GameObject"
+  },
+  {
+    "Text": "Annuler",
+    "Bind": "MapCanvas/MenuScreen/Multiplayer/Contents/ConnectingScreen/CancleButton/Text"
+  },
+  {
+    "Text": "Menu principal",
+    "Bind": "MapCanvas/SessionHasEndedScreen/Return to Menu/Text"
+  },
+  {
+    "Text": "La partie s'est fermée.",
+    "Bind": "MapCanvas/SessionHasEndedScreen/TopNotification/Content/Verticle/LittleText"
+  },
+  {
+    "Text": "Vous avez été déconnecté.",
+    "Bind": "MapCanvas/SessionHasEndedScreen/TopNotification/Content/Verticle/Text"
+  },
+  {
+    "Text": "Matériaux de construction requis après le placement",
+    "Bind": "Canvas/TownManager/Contents/ConfirmDeedWindow/Ingredients/Title"
+  },
+  {
+    "Text": "La dette de la ville  augmente",
+    "Bind": "Canvas/TownManager/Contents/ConfirmDeedWindow/Cost/CostBack/TownDebt"
+  },
+  {
+    "Text": "J'accepte",
+    "Bind": "Canvas/TownManager/Contents/ConfirmDeedWindow/ApplyButton/Price"
+  },
+  {
+    "Text": "Les matériaux nécessaires",
+    "Bind": "Canvas/GiveNPCWindow/ConstructionBox/PocketTitle"
+  },
+  {
+    "Text": "Tout",
+    "Bind": "Canvas/CatalogueWindow/Content/WindowBack (1)/ClothingButtons/ClothingTopBar/All/Text (1)"
+  },
+  {
+    "Text": "Tout",
+    "Bind": "Canvas/CatalogueWindow/Content/WindowBack (1)/FurnitureButtons/TopBar/All/Text (1)"
+  },
+  {
+    "Text": "Tout",
+    "Bind": "Canvas/CraftWindow/Contents/WindowBack (1)/CraftSortButtons/AllButton/Arrow (1)"
+  },
+  {
+    "Text": "Tout",
+    "Bind": "Canvas/CraftWindow/Contents/WindowBack (1)/DummyButtons/AllButton/Arrow (1)"
+  },
+  {
+    "Text": "Annuler",
+    "Bind": "MapCanvas/Journal/Pages/FarmAnimalTab/Inspect/ConfirmSellAnimal/Cancel/Text"
+  },
+  {
+    "Text": "Vendre",
+    "Bind": "MapCanvas/Journal/Pages/FarmAnimalTab/Inspect/ConfirmSellAnimal/SellButton/Text"
+  },
+  {
+    "Text": "Nommer l'animal",
+    "Bind": "Canvas/FarmAnimalWindow/BuyAndNameWindow/Title"
+  },
+  {
+    "Text": "Acheter",
+    "Bind": "Canvas/FarmAnimalWindow/BuyAndNameWindow/Buy/Text"
+  },
+  {
+    "Text": "Compatible avec les moulins à vent",
+    "Bind": "CursorCanvas/Cursor/Inv Descriptions/Windmill Compatible/Amount"
+  },
+  {
+    "Text": "Merci",
+    "Bind": "MapCanvas/MenuScreen/CornerStuff/CreditsButton/VersionNumber (1)"
+  },
+  {
+    "Text": "Développé par James Bendonþ",
+    "Bind": "MapCanvas/MenuScreen/Credits/Credits/Title"
+  },
+  {
+    "Text": "Je suis très reconnaissant à ma merveilleuse épouse Alexandra pour son soutien. þþ",
+    "Bind": "MapCanvas/MenuScreen/Credits/Credits/Title/Alex"
+  },
+  {
+    "Text": "Remerciement spécial",
+    "Bind": "MapCanvas/MenuScreen/Credits/Credits/Special Thanks"
+  },
+  {
+    "Text": "Son de",
+    "Bind": "MapCanvas/MenuScreen/Credits/Credits/VoicesBy"
+  },
+  {
+    "Text": "Musique de Satsuma Audio þ(Lawrence Steele) þþ",
+    "Bind": "MapCanvas/MenuScreen/Credits/Credits/Music"
+  },
+  {
+    "Text": "Je reconnais le statut des peuples Wiradjuri, Bindal et Wulgurukaba en tant que propriétaires traditionnels de la terre (l'archétype de ce jeu). Je les ai respecté, je les respecte et je les respecterai, je chérirai leur culture et leurs aspirations à être les premiers Australiens sur cette terre.",
+    "Bind": "MapCanvas/MenuScreen/Credits/Credits/Acknowledgment"
+  },
+  {
+    "Text": "Matthew GilmanþJames NuttingþMorgan PughþMatthew Skingleþ32-33 / The Naporasþ",
+    "Bind": "MapCanvas/MenuScreen/Credits/Credits/Special Thanks/Names"
+  },
+  {
+    "Text": "Poignée de détection automatique",
+    "Bind": "MapCanvas/MenuScreen/OptionWindow/Content/OptionMask/ButtonParent/Controls/AutoDetectController/Lable"
+  },
+  {
+    "Text": "Toujours orientée la mini-carte vers le nord",
+    "Bind": "MapCanvas/MenuScreen/OptionWindow/Content/OptionMask/ButtonParent/Controls/MapFacesNorth/Lable"
+  },
+  {
+    "Text": "Score total",
+    "Bind": "Canvas/TownManager/Contents/AwardWindow/OverallScore/Title"
+  },
+  {
+    "Text": "Récompenses de la ville",
+    "Bind": "Canvas/TownManager/Contents/AwardWindow/Awards"
+  },
+  {
+    "Text": "Décorations",
+    "Bind": "Canvas/TownManager/Contents/AwardWindow/Awards/AwardIcons/AmenitiesAward/TitleBack/Title"
+  },
+  {
+    "Text": "Musée",
+    "Bind": "Canvas/TownManager/Contents/AwardWindow/Awards/AwardIcons/MuseumAward/TitleBack/Title"
+  },
+  {
+    "Text": "Économie",
+    "Bind": "Canvas/TownManager/Contents/AwardWindow/Awards/AwardIcons/Economy/TitleBack/Title"
+  },
+  {
+    "Text": "Beauté",
+    "Bind": "Canvas/TownManager/Contents/AwardWindow/Awards/AwardIcons/BeautyAward/TitleBack/Title"
+  },
+  {
+    "Text": "Licence",
+    "Bind": "Canvas/TownManager/Contents/AwardWindow/Awards/AwardIcons/Licence/TitleBack/Title"
+  },
+  {
+    "Text": "Bonheur",
+    "Bind": "Canvas/TownManager/Contents/AwardWindow/Awards/AwardIcons/HappinessAward/TitleBack/Title"
+  },
+  {
+    "Text": "Oups!",
+    "Bind": "MapCanvas/MenuScreen/LoadGameWindowMultiplayer/MultiplayerWarning/TitleBar/Title"
+  },
+  {
+    "Text": "Vous n'avez aucun personnage pour jouer en multijoueur ! þþ Vous devez créer un personnage, dormir et gagner des Dinksavant de pouvoir visiter d'autres îles.",
+    "Bind": "MapCanvas/MenuScreen/LoadGameWindowMultiplayer/MultiplayerWarning/Text"
+  },
+  {
+    "Text": "Pause",
+    "Bind": "MapCanvas/Journal/Pages/Options/Contents/SinglePlayerOptions/Pause/Title"
+  },
+  {
+    "Text": "Appuyez sur “Start” ou “Entrée” pour revenir au jeu",
+    "Bind": "CursorCanvas/GamePausedScreen/Instructions"
+  },
+  {
+    "Text": "Pause",
+    "Bind": "CursorCanvas/GamePausedScreen/PauseMessage"
+  },
+  {
+    "Text": "Bendon",
+    "Bind": "CursorCanvas/JamesBendonLogo/Bendon"
+  },
+  {
+    "Text": "James",
+    "Bind": "CursorCanvas/JamesBendonLogo/James"
+  },
+  {
+    "Text": "Dépôt",
+    "Bind": "Canvas/BankWindow/Contents/MenuButtons/Deposit/Balance"
+  },
+  {
+    "Text": "Retirer",
+    "Bind": "Canvas/BankWindow/Contents/MenuButtons/Withdraw/Balance"
+  },
+  {
+    "Text": "<sprite=15>Convertir",
+    "Bind": "Canvas/BankWindow/Contents/MenuButtons/Convert/Balance"
+  },
+  {
+    "Text": "Appliquer",
+    "Bind": "Canvas/HouseCustomisation/Content/ConfirmChanges/ApplyButton/Confirm"
+  },
+  {
+    "Text": "Utilisez le þ<b>Kit de personnalisation de la maison</b>þ pour appliquer l'effet de modification ?",
+    "Bind": "Canvas/HouseCustomisation/Content/ConfirmChanges/Confirm Mesage"
+  },
+  {
+    "Text": "Nom du bâtiment",
+    "Bind": "Canvas/HouseCustomisation/Content/ConfirmChanges/BuildingNameTitle"
+  },
+  {
+    "Text": "Confirmer",
+    "Bind": "Canvas/HouseCustomisation/Content/WindowBack (1)/Fake/Apply/Icon (2)"
+  },
+  {
+    "Text": "Confirmer",
+    "Bind": "Canvas/HouseCustomisation/Content/WindowBack (1)/Buttons/Apply/Icon (2)"
+  }
+]
