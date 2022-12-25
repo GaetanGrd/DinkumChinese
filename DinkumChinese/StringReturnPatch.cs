@@ -275,6 +275,11 @@ namespace DinkumChinese
             NotificationManager.manage.createChatNotification(component.GetComponent<EquipItemToChar>().playerName + "livré un" + str, false);
             if (component.isLocalPlayer)
             {
+                if (animalDelivered == 29)
+                {
+                    MailManager.manage.sendAChrissyAnimalCapturedLetter(trapType);
+                    return false;
+                }
                 MailManager.manage.sendAnAnimalCapturedLetter(rewardToSend, trapType);
             }
             return false;
